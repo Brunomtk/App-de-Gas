@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Marcio-Gas",
+    "slug": "Marcio-Gas",
+    "version": "4.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon1.png",
+    "splash": {
+      "image": "./assets/splash1.png",
+      "resizeMode": "contain",
+      "width": "10%",
+      "height": "30%",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/79fcab25-f890-4c27-a2b9-f23b6d8b7852"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.brunomendes.MarcioGasApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "versionCode": 4,
+      "package": "com.brunomendes.MarcioGasApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "13625245-7ce0-4e04-a3e1-f1979e220c7c"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "owner": "conselt"
+  }
+}
